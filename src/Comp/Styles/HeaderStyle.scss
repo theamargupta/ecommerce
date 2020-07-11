@@ -1,0 +1,19 @@
+.header {
+  background: rgb(75, 74, 74);
+  padding: 1rem;
+  font-weight: 500;
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+  }
+  .active-class {
+    color: #00ffcc;
+    text-decoration: none;
+  }
+}

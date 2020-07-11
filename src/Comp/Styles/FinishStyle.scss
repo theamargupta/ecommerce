@@ -1,0 +1,23 @@
+.finish {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  background: #333;
+  a {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    background: #fff;
+    text-decoration: none;
+  }
+  h1 {
+    text-shadow: 0 5px 12px #333;
+    color: #fff;
+  }
+  span {
+    cursor: pointer;
+  }
+}
