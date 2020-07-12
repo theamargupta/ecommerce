@@ -7,11 +7,6 @@ import configStore from './Redux/Store/ConfigStore';
 import { Provider } from 'react-redux';
 
 const store = configStore();
-
-store.subscribe(() => {
-  console.log(store.getState());
-});
-
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>

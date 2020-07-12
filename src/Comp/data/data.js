@@ -63,13 +63,3 @@ const data = [
 ];
 
 export default data;
-// https://i.ibb.co/16LJ6vy/1.png
-// https://i.ibb.co/8m1MvkP/NIKE-shoes-VAPORFLY-VF-in-Tokyo-on-Jan-20-2020-The-Yomiuri-Shimbun-via-AP-Images.jpg
-// https://i.ibb.co/fnVD42M/3.jpg
-// https://i.ibb.co/C55kjy4/4.jpg
-// https://i.ibb.co/cy6h7jC/5.jpg
-// https://i.ibb.co/tP0p85h/6.gif
-// https://i.ibb.co/vB0vNZT/7.jpg
-// https://i.ibb.co/9hFKD4V/8.jpg
-// https://i.ibb.co/fntcdTw/9.jpg
-// https://i.ibb.co/mzC1BKQ/10.png

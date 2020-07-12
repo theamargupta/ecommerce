@@ -120,10 +120,3 @@ const mapStateToProps = ({ oAuth }) => ({
   data: oAuth,
 });
 export default connect(mapStateToProps)(Register);
-// {/* <div>
-//             <Header />
-//             <h1>sucessfully registered</h1>
-//             <h1>
-//               You can login now <Link to='/login'>Home Page</Link>
-//             </h1>
-//           </div> */}

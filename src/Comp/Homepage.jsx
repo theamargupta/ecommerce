@@ -7,18 +7,11 @@ import Header from './Header';
 import './Styles/Homepage.scss';
 
 class Homepage extends Component {
-  // constructor(props) {
-  //   super(props);
-  // }
   componentDidMount() {
     return this.props.data.data.length < 10
       ? data.map((data) => this.props.dispatch(getProducts(data)))
       : null;
   }
-  handleClick = () => {
-    console.log('clicked');
-    console.log(this.props.cartData);
-  };
   render() {
     return (
       <div className='Homepage'>
@@ -38,7 +31,7 @@ class Homepage extends Component {
     );
   }
 }
-const mapStateToProps = ({ product, oAuth, cart }) => ({
+const mapStateToProps = ({ product, cart }) => ({
   data: product,
   cartData: cart,
 });

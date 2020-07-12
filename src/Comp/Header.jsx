@@ -18,11 +18,6 @@ const Header = (props) => {
               Cart
             </NavLink>
           </li>
-          {/* <li>
-            <NavLink exact activeClassName='active-class' to='/finish'>
-              finish
-            </NavLink>
-          </li> */}
           <li>
             <NavLink exact activeClassName='active-class' to='/Logout'>
               Logout
@@ -51,11 +46,6 @@ const Header = (props) => {
               Cart
             </NavLink>
           </li>
-          {/* <li>
-            <NavLink exact activeClassName='active-class' to='/finish'>
-              finish
-            </NavLink>
-          </li> */}
         </ul>
       )}
     </nav>
